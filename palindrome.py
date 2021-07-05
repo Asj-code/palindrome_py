@@ -3,8 +3,6 @@ def is_palindrome(text):
     text = text.replace(" ", "")
     if text == text[::-1]:
         return "is palindrome"
-    else:
-        return "is not a palindrome"
-
+    return "is not a palindrome"
 
 
